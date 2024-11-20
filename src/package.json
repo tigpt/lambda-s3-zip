@@ -6,7 +6,9 @@
   "repository": "https://github.com/carvantes/lambda-s3-zip",
   "author": "Nestor Carvantes",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "aws-sdk": "^2.1692.0"
+  },
   "scripts": {
     "test": "mocha tests/unit/"
   },
